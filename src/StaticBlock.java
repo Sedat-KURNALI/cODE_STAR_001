@@ -17,9 +17,9 @@ public class StaticBlock {
     }
 
     public static void main(String[] args) {
-        System.out.println("Main method calisti 1");
+        System.out.println("_others01.Main method calisti 1");
         System.out.println(++age);
         StaticBlock obj = new StaticBlock();
-        System.out.println("Main method calisti 2");
+        System.out.println("_others01.Main method calisti 2");
     }
 }

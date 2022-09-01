@@ -1,3 +1,5 @@
+package _others01;
+
 public class JavaFInal2 {
     
 }

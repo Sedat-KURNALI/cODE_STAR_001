@@ -1,5 +1,4 @@
-
-import java.util.List;
+package _others01;
 
 public class JavaMethodOverloading {
 
@@ -103,9 +102,9 @@ public class JavaMethodOverloading {
         new JavaMethodOverloading().primitiveType(Integer.valueOf(1)); // Integer
     
         // 6.
-        //( The method diffPrimitive(Long) in the type JavaMethodOverloading
+        //( The method diffPrimitive(Long) in the type _others01.JavaMethodOverloading
         // is not applicable for the arguments (int) )
-        // new JavaMethodOverloading().diffPrimitive(2);
+        // new _others01.JavaMethodOverloading().diffPrimitive(2);
         new JavaMethodOverloading().diffPrimitive(2L);
         
     }

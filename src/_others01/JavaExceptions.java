@@ -1,6 +1,6 @@
+package _others01;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -105,7 +105,7 @@ public class JavaExceptions {
         // exception, a compile time error will be thrown
         // (Unreachable catch block for IOException. This exception is never thrown from the try statement body)
         // try{
-        //     new JavaExceptions().gotHome();
+        //     new _others01.JavaExceptions().gotHome();
         // } catch ( IOException e ) {
 
         // }

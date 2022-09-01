@@ -1,3 +1,4 @@
+package _others01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,7 @@ public class Main {
     }
 }
 
-// public class Main {
+// public class _others01.Main {
 //     public static void main(String[] args) {
 
 //     }
@@ -33,7 +34,7 @@ public class Main {
 /* 
 // true
 // false
-public class Main {
+public class _others01.Main {
     public static void main(String[] args) {
         final int i1 = 1;
         final Integer i2 = 1;
@@ -50,7 +51,7 @@ public class Main {
 
 /* 
 // false
-public class Main {
+public class _others01.Main {
     public static void main(String[] args) {
         String javaworld = "JavaWorld";
         String java = "Java";
@@ -61,7 +62,7 @@ public class Main {
 } */
 
 /* // MITS
-public class Main {
+public class _others01.Main {
     public static void main(String[] args) {
       String place = "MISSS";
       System.out.println(place.replace("SS", "T"));
@@ -70,7 +71,7 @@ public class Main {
 
 /* // false
 // true
-public class Main {
+public class _others01.Main {
     public static void main(String[] args) {
         final String fName = "James";
         String lName = "Gosling";
@@ -82,27 +83,27 @@ public class Main {
     }
 } */
 
-/* // Main.java:2: error: cannot inherit from final String
-// public class Main extends String {
+/* // _others01.Main.java:2: error: cannot inherit from final String
+// public class _others01.Main extends String {
 //                           ^
 // 1 error
 // compiler exit status 1
 
-public class Main extends String {
+public class _others01.Main extends String {
     @Override
     public String toString() {
         return "TEST";
     }
     
     public static void main(String[] args) {
-        Main obj = new Main();
+        _others01.Main obj = new _others01.Main();
         System.out.println(obj);
     }
 } */
 
 
 /* // Following will print 25
-public class Main {
+public class _others01.Main {
     public static void main(String [] args) {
       var x = 7.85; //Line n1
       var y = 5.25f; //Line n2
@@ -113,7 +114,7 @@ public class Main {
 } */
 
 /* // Following will print 20
-public class Main {
+public class _others01.Main {
     public static void main(String [] args) {
       final var x = 10; //Line n1
         byte b = x + 10; //Line n2
@@ -126,19 +127,19 @@ public class Main {
 // - public main() doesn't have a return type
 // - overloading with just static is not supported
 
-public class Main {
-    static String Main = "ONE";
+public class _others01.Main {
+    static String _others01.Main = "ONE";
     
-    public Main() {
+    public _others01.Main() {
         System.out.println("TWO");
     }
     
-    public static void Main(String [] args) {
-        Main();
+    public static void _others01.Main(String [] args) {
+        _others01.Main();
     }
     
-    public static void Main() {
-        System.out.println(Main);
+    public static void _others01.Main() {
+        System.out.println(_others01.Main);
     }
 } */
 
@@ -146,15 +147,15 @@ public class Main {
 
 /* //Following will throw a runtime exception
 //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of //bounds for length 0
-//    at Message.main(Main.java:30)
-//    at Main.main(Main.java:36)
+//    at Message.main(_others01.Main.java:30)
+//    at _others01.Main.main(_others01.Main.java:36)
 class Message {
     public static void main(String [] args) {
         System.out.println("Welcome! " + args[1]);
     }
 }
  
-public class Main {
+public class _others01.Main {
     public static void main(String [] args) {
         Message.main(args);
     }
@@ -163,8 +164,8 @@ public class Main {
 
 
 /* //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of //bounds for length 0
-//    at Message.main(Main.java:36)
-//    at Main.main(Main.java:42)
+//    at Message.main(_others01.Main.java:36)
+//    at _others01.Main.main(_others01.Main.java:42)
 //exit status 1
 
 class Message {
@@ -173,7 +174,7 @@ class Message {
     }
 }
  
-public class Main {
+public class _others01.Main {
     public static void main(String [] args) {
         Message.main(args);
     }
@@ -182,19 +183,19 @@ public class Main {
 /* 
 // Public classes should be in seprate files
 
-// > javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . Main.java MainDefn.java
-// Main.java:73: error: class B is public, should be declared in a file named B.java
+// > javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . _others01.Main.java MainDefn.java
+// _others01.Main.java:73: error: class B is public, should be declared in a file named B.java
 // public class B {
 //  ^
-// Main.java:79: error: class C is public, should be declared in a file named C.java
+// _others01.Main.java:79: error: class C is public, should be declared in a file named C.java
 // public class C {
       //  ^
-// Main.java:85: error: class D is public, should be declared in a file named D.java
+// _others01.Main.java:85: error: class D is public, should be declared in a file named D.java
 // public class D {
       //  ^
 // 3 errors
 // compiler exit status 1
-public class Main {
+public class _others01.Main {
      public static void main(String [] args) {
         System.out.print("A");
     }
@@ -220,13 +221,13 @@ public class D {
 
 /* 
 // This works fine and will print "Parent"
-class Main {
+class _others01.Main {
     public static void main(String [] args) {
         System.out.println("Parent");
     }
 }
  
-class Child extends Main {
+class Child extends _others01.Main {
     public static void main(String [] args) {
         System.out.println("Child");
     }

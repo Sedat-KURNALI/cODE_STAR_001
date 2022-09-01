@@ -1,3 +1,4 @@
+package _others01;
 
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ class ParentJavStatic {
 public class JavaStatic extends ParentJavStatic{
 
     static {
-        System.out.println("Static block in Main Class");
+        System.out.println("Static block in _others01.Main Class");
     }
 
     static String staticVariable = "Static Variable";

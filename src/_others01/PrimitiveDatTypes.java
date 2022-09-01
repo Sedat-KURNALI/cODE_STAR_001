@@ -1,6 +1,7 @@
+package _others01;
 
 /**
- * PrimitiveDatTypes
+ * _others01.PrimitiveDatTypes
  */
 public class PrimitiveDatTypes {
 
